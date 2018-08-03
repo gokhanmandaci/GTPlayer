@@ -75,31 +75,15 @@
 			isa = PBXGroup;
 			children = (
 				997298F521142E1900B389B6 /* ViewController.swift */,
-				9972990521142EBA00B389B6 /* UI */,
-				9972990621142ECD00B389B6 /* Views */,
+				997299072114318200B389B6 /* GTView.xib */,
+				997299092114329C00B389B6 /* GTView.swift */,
+				997298F721142E1900B389B6 /* Main.storyboard */,
+				997298FA21142E1A00B389B6 /* Assets.xcassets */,
+				997298FC21142E1A00B389B6 /* LaunchScreen.storyboard */,
 				997298FF21142E1A00B389B6 /* Info.plist */,
 				997298F321142E1900B389B6 /* AppDelegate.swift */,
 			);
 			path = GTPlayer;
-			sourceTree = "<group>";
-		};
-		9972990521142EBA00B389B6 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				997298F721142E1900B389B6 /* Main.storyboard */,
-				997298FA21142E1A00B389B6 /* Assets.xcassets */,
-				997298FC21142E1A00B389B6 /* LaunchScreen.storyboard */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		9972990621142ECD00B389B6 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				997299072114318200B389B6 /* GTView.xib */,
-				997299092114329C00B389B6 /* GTView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		F9D4D118D790B58B3746F789 /* Frameworks */ = {
