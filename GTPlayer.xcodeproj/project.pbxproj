@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		997298F421142E1900B389B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997298F321142E1900B389B6 /* AppDelegate.swift */; };
+		997298F621142E1900B389B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997298F521142E1900B389B6 /* ViewController.swift */; };
+		997298F921142E1900B389B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997298F721142E1900B389B6 /* Main.storyboard */; };
+		997298FB21142E1A00B389B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997298FA21142E1A00B389B6 /* Assets.xcassets */; };
+		997298FE21142E1A00B389B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997298FC21142E1A00B389B6 /* LaunchScreen.storyboard */; };
+		997299082114318200B389B6 /* GTView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 997299072114318200B389B6 /* GTView.xib */; };
+		9972990A2114329C00B389B6 /* GTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997299092114329C00B389B6 /* GTView.swift */; };
+		E588AC42994B9AD00328EB0A /* Pods_GTPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4349A27F2A3888D122FD58C7 /* Pods_GTPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4349A27F2A3888D122FD58C7 /* Pods_GTPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5DC3F1CF1ABC1FD646AEC2 /* Pods-GTPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTPlayer/Pods-GTPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		997298F021142E1900B389B6 /* GTPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		997298F321142E1900B389B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		997298F521142E1900B389B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		997298F821142E1900B389B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		997298FA21142E1A00B389B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		997298FD21142E1A00B389B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		997298FF21142E1A00B389B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997299072114318200B389B6 /* GTView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GTView.xib; sourceTree = "<group>"; };
+		997299092114329C00B389B6 /* GTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTView.swift; sourceTree = "<group>"; };
+		A6451EC5188914624C9563BD /* Pods-GTPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTPlayer/Pods-GTPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		997298ED21142E1900B389B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E588AC42994B9AD00328EB0A /* Pods_GTPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33BB6A6DF9F9511D97830533 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6451EC5188914624C9563BD /* Pods-GTPlayer.debug.xcconfig */,
+				4E5DC3F1CF1ABC1FD646AEC2 /* Pods-GTPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		997298E721142E1900B389B6 = {
+			isa = PBXGroup;
+			children = (
+				997298F221142E1900B389B6 /* GTPlayer */,
+				997298F121142E1900B389B6 /* Products */,
+				33BB6A6DF9F9511D97830533 /* Pods */,
+				F9D4D118D790B58B3746F789 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		997298F121142E1900B389B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				997298F021142E1900B389B6 /* GTPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		997298F221142E1900B389B6 /* GTPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				997298F521142E1900B389B6 /* ViewController.swift */,
+				9972990521142EBA00B389B6 /* UI */,
+				9972990621142ECD00B389B6 /* Views */,
+				997298FF21142E1A00B389B6 /* Info.plist */,
+				997298F321142E1900B389B6 /* AppDelegate.swift */,
+			);
+			path = GTPlayer;
+			sourceTree = "<group>";
+		};
+		9972990521142EBA00B389B6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				997298F721142E1900B389B6 /* Main.storyboard */,
+				997298FA21142E1A00B389B6 /* Assets.xcassets */,
+				997298FC21142E1A00B389B6 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9972990621142ECD00B389B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				997299072114318200B389B6 /* GTView.xib */,
+				997299092114329C00B389B6 /* GTView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9D4D118D790B58B3746F789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4349A27F2A3888D122FD58C7 /* Pods_GTPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		997298EF21142E1900B389B6 /* GTPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9972990221142E1A00B389B6 /* Build configuration list for PBXNativeTarget "GTPlayer" */;
+			buildPhases = (
+				4257760D8B0605DE125B1A5C /* [CP] Check Pods Manifest.lock */,
+				997298EC21142E1900B389B6 /* Sources */,
+				997298ED21142E1900B389B6 /* Frameworks */,
+				997298EE21142E1900B389B6 /* Resources */,
+				17EEBD390F6EF0CBCF395802 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTPlayer;
+			productName = GTPlayer;
+			productReference = 997298F021142E1900B389B6 /* GTPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		997298E821142E1900B389B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Gökhan Mandacı";
+				TargetAttributes = {
+					997298EF21142E1900B389B6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 997298EB21142E1900B389B6 /* Build configuration list for PBXProject "GTPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 997298E721142E1900B389B6;
+			productRefGroup = 997298F121142E1900B389B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				997298EF21142E1900B389B6 /* GTPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		997298EE21142E1900B389B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997298FE21142E1A00B389B6 /* LaunchScreen.storyboard in Resources */,
+				997299082114318200B389B6 /* GTView.xib in Resources */,
+				997298FB21142E1A00B389B6 /* Assets.xcassets in Resources */,
+				997298F921142E1900B389B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17EEBD390F6EF0CBCF395802 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GTPlayer/Pods-GTPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTPlayer/Pods-GTPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4257760D8B0605DE125B1A5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GTPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		997298EC21142E1900B389B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997298F621142E1900B389B6 /* ViewController.swift in Sources */,
+				9972990A2114329C00B389B6 /* GTView.swift in Sources */,
+				997298F421142E1900B389B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		997298F721142E1900B389B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				997298F821142E1900B389B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		997298FC21142E1A00B389B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				997298FD21142E1A00B389B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9972990021142E1A00B389B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9972990121142E1A00B389B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9972990321142E1A00B389B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6451EC5188914624C9563BD /* Pods-GTPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z583R7FF8W;
+				INFOPLIST_FILE = GTPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmandaci.GTPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9972990421142E1A00B389B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5DC3F1CF1ABC1FD646AEC2 /* Pods-GTPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z583R7FF8W;
+				INFOPLIST_FILE = GTPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmandaci.GTPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		997298EB21142E1900B389B6 /* Build configuration list for PBXProject "GTPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9972990021142E1A00B389B6 /* Debug */,
+				9972990121142E1A00B389B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9972990221142E1A00B389B6 /* Build configuration list for PBXNativeTarget "GTPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9972990321142E1A00B389B6 /* Debug */,
+				9972990421142E1A00B389B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 997298E821142E1900B389B6 /* Project object */;
+}

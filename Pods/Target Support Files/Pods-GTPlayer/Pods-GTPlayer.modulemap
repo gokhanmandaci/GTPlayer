@@ -1,0 +1,6 @@
+framework module Pods_GTPlayer {
+  umbrella header "Pods-GTPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
