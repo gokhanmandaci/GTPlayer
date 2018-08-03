@@ -26,6 +26,4 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         
     }
-    
 }
-
