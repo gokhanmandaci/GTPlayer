@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GTPlayer'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Small easy to use player layer. Nice'
   s.swift_version = '4.2'
   s.dependency 'AlamofireImage'
@@ -14,6 +14,6 @@ This is a ready made player view with necessary methods.
   s.source           = { :git => 'https://github.com/gokhanmandaci/GTPlayer.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'GTPlayer/Views/*'
+  s.source_files = 'GTPlayer/*'
  
 end
